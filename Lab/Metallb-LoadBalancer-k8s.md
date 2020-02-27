@@ -43,7 +43,7 @@ data:
     - name: default
       protocol: layer2
       addresses:
-      - 172.16.68.140-172.16.68.145   # Dải IP làm LoadBalancer
+      - 192.168.1.30-192.168.1.40   # Dải IP làm LoadBalancer
 ```
 - Apply file confile metallb
 ```
@@ -94,7 +94,7 @@ kubectl apply -f nginx-service.yaml
 ```sh
 $ kubectl get svc
 NAME                      TYPE           CLUSTER-IP       EXTERNAL-IP     PORT(S)        AGE
-hello-kubernetes-first    LoadBalancer   10.106.89.17     10.1.22.215   80:32026/TCP     28m
+hello-kubernetes-first    LoadBalancer   10.106.89.17     192.168.1.30    80:32026/TCP   28m
 ```
 ## Tài liệu tham khảo
 - https://github.com/thangtq710/Kubernetes/blob/master/docs/10.Loadbalancer_service_metallb.md
