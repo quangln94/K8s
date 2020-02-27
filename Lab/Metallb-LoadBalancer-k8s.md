@@ -1,7 +1,8 @@
 # Triển khai ứng dụng sử dụng metallb làm Loadbalancer
 
 ## 1. Mô hình
-- Cụm k8s gồm: 
+- Cụm k8s gồm:
+
 |Server|Master 01|Worker 01|
 |------|---------|---------|
 IP|192.168.1.11|192.168.1.21|
