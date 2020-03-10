@@ -44,6 +44,7 @@ data:
       protocol: layer2
       addresses:
       - 192.168.1.30-192.168.1.40   # Dải IP làm LoadBalancer
+      - 192.168.1.30/24              # IP làm LoadBalancer
 ```
 - Apply file confile metallb
 ```
