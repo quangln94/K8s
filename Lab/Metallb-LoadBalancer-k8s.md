@@ -15,7 +15,7 @@ Tải và cài đặt `metallb`
 ```
 mkdir -p ~/metallb
 cd metallb
-wget https://raw.githubusercontent.com/google/metallb/v0.8.1/manifests/metallb.yaml 
+wget https://raw.githubusercontent.com/google/metallb/v0.8.3/manifests/metallb.yaml
 ```
 - Apply file `metallb.yaml`
 
@@ -97,4 +97,5 @@ NAME                      TYPE           CLUSTER-IP       EXTERNAL-IP     PORT(S
 hello-kubernetes-first    LoadBalancer   10.106.89.17     192.168.1.30    80:32026/TCP   28m
 ```
 ## Tài liệu tham khảo
+- https://metallb.universe.tf/installation/
 - https://github.com/thangtq710/Kubernetes/blob/master/docs/10.Loadbalancer_service_metallb.md
