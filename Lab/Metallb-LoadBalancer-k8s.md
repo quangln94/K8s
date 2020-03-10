@@ -1,4 +1,4 @@
-# Triển khai ứng dụng sử dụng metallb làm Loadbalancer
+# Triển khai ứng dụng sử dụng metallb làm Loadbalancer và Nginx ingress controller
 
 ## 1. Mô hình
 - Cụm k8s gồm:
@@ -100,3 +100,4 @@ hello-kubernetes-first    LoadBalancer   10.106.89.17     192.168.1.30    80:320
 ## Tài liệu tham khảo
 - https://metallb.universe.tf/installation/
 - https://github.com/thangtq710/Kubernetes/blob/master/docs/10.Loadbalancer_service_metallb.md
+- https://github.com/meta-magic/metallb-baremetal-example
